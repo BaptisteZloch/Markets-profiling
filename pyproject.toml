@@ -4,7 +4,7 @@ version = "0.1.0"
 description = ""
 authors = ["BaptisteZloch <bzloch@hotmail.fr>"]
 readme = "README.md"
-packages = [{include = "src"},]
+packages = [{include = "src"}]
 
 [tool.poetry.dependencies]
 python = ">=3.8,<3.12"
@@ -12,9 +12,16 @@ matplotlib = "^3.7.0"
 numpy = "^1.24.2"
 pandas = "^1.5.3"
 scipy = "^1.10.1"
+kucoin-python = "^1.0.11"
+marketprofile = "^0.2.0"
+seaborn = "^0.12.2"
+plotly = "^5.13.0"
+nbformat = "^5.7.3"
+yfinance = "^0.2.12"
 
 [tool.poetry.group.dev.dependencies]
 black = "^23.1.0"
+ipykernel = "^6.21.2"
 
 
 [build-system]

@@ -1,9 +1,10 @@
 # Custom
-vscode
+.vscode
 *.7z
 *.csv
 *.npy
 data/*
+*test.py
 
 #official python gitignore
 # Byte-compiled / optimized / DLL files
