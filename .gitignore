@@ -3,7 +3,8 @@
 *.7z
 *.csv
 *.npy
-data/*
+*/data/*
+data
 *test.py
 
 #official python gitignore
